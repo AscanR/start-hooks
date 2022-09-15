@@ -5,6 +5,7 @@ const UseRefExercise = () => {
     const ref = useRef();
     const [name, setName] = useState("Блок");
     const handleClick = () => {
+        // blockRef.current.children[0].innerText = "text";
         setName("Текст");
         ref.current.style.width = "150px";
         ref.current.style.height = "80px";
